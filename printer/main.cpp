@@ -103,6 +103,15 @@ array<string, 6> r()
 }
 array<string, 6> s()
 {
+ array<string, 6> bukv;
+    bukv[0]="   _____  ";
+    bukv[1]="  ||   || ";
+    bukv[2]=" ||       ";
+    bukv[3]="  ||---|| ";
+    bukv[4]="        ||";
+    bukv[5]="  ||___|| ";
+    return bukv;
+
 
 }
 array<string, 6> t()
@@ -179,9 +188,9 @@ public:
 output mainscreen;
 int main()
 {
-    symbol R(r());
- mainscreen.add(R);
- mainscreen.add(R);
+    symbol S(s());
+ mainscreen.add(S);
+ mainscreen.add(S);
  mainscreen.print();
     return 0;
 }
