@@ -124,7 +124,14 @@ array<string, 6> t()
 //olya
 array<string, 6> u()
 {
-
+array<string, 6> bukv;
+    bukv[0]=" ||     || ";
+    bukv[1]=" ||     || ";
+    bukv[2]=" ||     || ";
+    bukv[3]=" ||     || ";
+    bukv[4]="  ||   ||  ";
+    bukv[5]="   _____   ";
+    return bukv;
 }
 //olya
 array<string, 6> v()
@@ -197,12 +204,20 @@ public:
 output mainscreen;
 int main()
 {
-
-
- symbol B(b());
+ symbol A(a());
+ mainscreen.add(A);
+  symbol B(b());
  mainscreen.add(B);
+  symbol E(e());
+   mainscreen.add(E);
+  symbol L(l());
+  mainscreen.add(L);
  symbol R(r());
  mainscreen.add(R);
+   symbol U(u());
+ mainscreen.add(U);
+  symbol X(x());
+  mainscreen.add(X);
  mainscreen.print();
     return 0;
 }
