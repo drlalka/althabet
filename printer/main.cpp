@@ -15,7 +15,14 @@ array<string, 6> a()
 }
 array<string, 6> b()
 {
-
+array<string, 6> bukv;
+    bukv[0]="  ________   ";
+    bukv[1]=" ||-------|| ";
+    bukv[2]=" ||       | )";
+    bukv[3]=" ||======< < ";
+    bukv[4]=" ||_______| )";
+    bukv[5]=" ||_______|| ";
+    return bukv;
 }
 array<string, 6> c()
 {
@@ -41,6 +48,8 @@ array<string, 6> f()
 {
 
 }
+//symbol 6
+//
 array<string, 6> g()
 {
 
@@ -88,6 +97,7 @@ array<string, 6> q()
 {
 
 }
+//olya
 array<string, 6> r()
 {
  array<string, 6> bukv;
@@ -101,14 +111,17 @@ array<string, 6> r()
 
 
 }
+//olya
 array<string, 6> s()
 {
 
 }
+//olya
 array<string, 6> t()
 {
 
 }
+//olya
 array<string, 6> u()
 {
 array<string, 6> bukv;
@@ -120,14 +133,17 @@ array<string, 6> bukv;
     bukv[5]="   _____   ";
     return bukv;
 }
+//olya
 array<string, 6> v()
 {
 
 }
+//olya
 array<string, 6> w()
 {
 
 }
+//olya
 array<string, 6> x()
 {
     array<string, 6> bukv;
@@ -139,11 +155,13 @@ bukv[4]="  ||||   ";
 bukv[5]="_||  ||_ ";
 return bukv;
 }
+//olya
 array<string, 6> y()
 {
 
 }
 array<string, 6> z()
+//olya
 {
 
 }
@@ -186,9 +204,20 @@ public:
 output mainscreen;
 int main()
 {
-    symbol U(u());
+ symbol A(a());
+ mainscreen.add(A);
+  symbol B(b());
+ mainscreen.add(B);
+  symbol E(e());
+   mainscreen.add(E);
+  symbol L(l());
+  mainscreen.add(L);
+ symbol R(r());
+ mainscreen.add(R);
+   symbol U(u());
  mainscreen.add(U);
- mainscreen.add(U);
+  symbol X(x());
+  mainscreen.add(X);
  mainscreen.print();
     return 0;
 }
