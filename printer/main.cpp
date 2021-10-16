@@ -26,7 +26,14 @@ array<string, 6> bukv;
 }
 array<string, 6> c()
 {
-
+array<string, 6> bukv;
+    bukv[0]="  _________  ";
+    bukv[1]=" | |_____  | ";
+    bukv[2]=" | |     |_| ";
+    bukv[3]=" | |      _  ";
+    bukv[4]=" | |_____| | ";
+    bukv[5]=" |_________| ";
+    return bukv;
 }
 array<string, 6> d()
 {
@@ -188,9 +195,9 @@ public:
 output mainscreen;
 int main()
 {
-    symbol B(b());
- mainscreen.add(B);
- mainscreen.add(B);
+    symbol C(c());
+ mainscreen.add(C);
+ mainscreen.add(C);
  mainscreen.print();
     return 0;
 }
