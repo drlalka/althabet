@@ -39,7 +39,14 @@ return bukv;
 }
 array<string, 6> f()
 {
-
+ array<string, 6> bukv;
+    bukv[0]=" |||||||||] ";
+    bukv[1]=" ||         ";
+    bukv[2]=" ||         ";
+    bukv[3]=" |||||||]   ";
+    bukv[4]=" ||         ";
+    bukv[5]=" ||         ";
+    return bukv;
 }
 array<string, 6> g()
 {
@@ -170,7 +177,10 @@ public:
 output mainscreen;
 int main()
 {
-
+ symbol F(f());
+ mainscreen.add(F);
+ mainscreen.add(F);
+ mainscreen.print();
     return 0;
 }
 
