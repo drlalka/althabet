@@ -302,9 +302,6 @@ public:
 output mainscreen;
 int main()
 {
- symbol Q(q());
- mainscreen.add(Q);
- mainscreen.add(Q);
  symbol A(a());
  mainscreen.add(A);
   symbol B(b());
@@ -335,6 +332,8 @@ mainscreen.add(M);
  symbol P(p());
 mainscreen.add(P);
 mainscreen.add(N);
+   symbol Q(q());
+ mainscreen.add(Q);
  symbol R(r());
  mainscreen.add(R);
    symbol U(u());
