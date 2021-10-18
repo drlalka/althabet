@@ -166,7 +166,14 @@ array<string, 6> o()
 }
 array<string, 6> p()
 {
-
+array<string, 6> bukv;
+bukv[0]=" ____    ";
+bukv[1]="||   \\\\  ";
+bukv[2]="||    || ";
+bukv[3]="||___//  ";
+bukv[4]="||       ";
+bukv[5]="||       ";
+return bukv;
 }
 array<string, 6> q()
 {
@@ -313,6 +320,8 @@ mainscreen.add(K);
   symbol M(m());
 mainscreen.add(M);
   symbol N(n());
+ symbol P(p());
+mainscreen.add(P);
 mainscreen.add(N);
  symbol R(r());
  mainscreen.add(R);
