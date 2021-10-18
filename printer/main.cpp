@@ -118,7 +118,14 @@ return bukv;
 }
 array<string, 6> k()
 {
-
+array<string, 6> bukv;
+bukv[0]="||  // ";
+bukv[1]="|| //  ";
+bukv[2]="||//   ";
+bukv[3]="||\\\\   ";
+bukv[4]="|| \\\\  ";
+bukv[5]="||  \\\\ ";
+return bukv;
 }
 array<string, 6> l()
 {
@@ -274,6 +281,8 @@ int main()
  mainscreen.add(I);
   symbol J(j());
 mainscreen.add(J);
+  symbol K(k());
+mainscreen.add(K);
   symbol L(l());
   mainscreen.add(L);
  symbol R(r());
