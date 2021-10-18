@@ -126,6 +126,15 @@ return bukv;
 array<string, 6> y()
 {
 
+return bukv;array<string, 6> bukv;
+    bukv[0]="||      || ";
+    bukv[1]="||     ||  ";
+    bukv[2]="  || ||    ";
+    bukv[3]="    ||     ";
+    bukv[4]="    ||     ";
+    bukv[5]=||__||      ";
+return bukv;
+
 }
 array<string, 6> z()
 {
