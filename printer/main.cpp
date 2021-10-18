@@ -180,6 +180,10 @@ output mainscreen;
 int main()
 {
 
+ symbol V(v());
+ mainscreen.add(V);
+ mainscreen.add(V);
+ mainscreen.print();
     return 0;
 }
 
