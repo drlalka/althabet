@@ -178,6 +178,15 @@ return bukv;
 array<string, 6> q()
 {
 
+array<string, 6> bukv;
+    bukv[0]=" _____   ";
+    bukv[1]="||   ||  ";
+    bukv[2]="||   ||  ";
+    bukv[3]="||   ||  ";
+    bukv[4]="||___||  ";
+    bukv[5]="      || ";
+        return bukv;
+
 }
 //olya
 array<string, 6> r()
@@ -323,6 +332,8 @@ mainscreen.add(M);
  symbol P(p());
 mainscreen.add(P);
 mainscreen.add(N);
+   symbol Q(q());
+ mainscreen.add(Q);
  symbol R(r());
  mainscreen.add(R);
    symbol U(u());
