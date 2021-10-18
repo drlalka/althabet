@@ -76,6 +76,17 @@ array<string, 6> m()
 {
 
 }
+array<string, 6> n()
+{
+    array<string, 6> bukv;
+bukv[0]="||\\\\    || ";
+bukv[1]="|| \\\\   || ";
+bukv[2]="||  \\\\  || ";
+bukv[3]="||   \\\\ || ";
+bukv[4]="||    \\\\|| ";
+bukv[5]="||     \\|| ";
+return bukv;
+}
 array<string, 6> o()
 {
 
@@ -170,7 +181,10 @@ public:
 output mainscreen;
 int main()
 {
-
+symbol N(n());
+mainscreen.add(N);
+mainscreen.add(N);
+mainscreen.print();
     return 0;
 }
 
