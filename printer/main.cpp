@@ -338,8 +338,6 @@ mainscreen.add(N);
  mainscreen.add(R);
    symbol U(u());
  mainscreen.add(U);
-   symbol V(v());
- mainscreen.add(V);
   symbol X(x());
   mainscreen.add(X);
    symbol Y(y());
