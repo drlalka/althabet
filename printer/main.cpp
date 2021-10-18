@@ -47,7 +47,14 @@ array<string, 6> g()
 }
 array<string, 6> h()
 {
-
+     array<string, 6> bukv;
+bukv[0]="[|      |] ";
+bukv[1]="[|      |] ";
+bukv[2]="[|------|] ";
+bukv[3]="[|------|] ";
+bukv[4]="[|      |] ";
+bukv[5]="[|      |] ";
+return bukv;
 }
 array<string, 6> i()
 {
@@ -170,7 +177,10 @@ public:
 output mainscreen;
 int main()
 {
-
+           symbol H(h());
+ mainscreen.add(H);
+ mainscreen.add(H);
+ mainscreen.print();
     return 0;
 }
 
