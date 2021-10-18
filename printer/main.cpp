@@ -129,7 +129,7 @@ array<string, 6> y()
 }
 array<string, 6> z()
 {
-return bukv;array<string, 6> bukv;
+array<string, 6> bukv;
     bukv[0]="_______   ";
     bukv[1]="||    ||  ";
     bukv[2]="     ||   ";
@@ -178,7 +178,10 @@ public:
 output mainscreen;
 int main()
 {
-
+symbol Z(z());
+ mainscreen.add(Z);
+ mainscreen.add(Z);
+ mainscreen.print();
     return 0;
 }
 
