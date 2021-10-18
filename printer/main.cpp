@@ -149,6 +149,17 @@ bukv[4]="||        || ";
 bukv[5]="||        || ";
 return bukv;
 }
+array<string, 6> n()
+{
+    array<string, 6> bukv;
+bukv[0]="||\\\\    || ";
+bukv[1]="|| \\\\   || ";
+bukv[2]="||  \\\\  || ";
+bukv[3]="||   \\\\ || ";
+bukv[4]="||    \\\\|| ";
+bukv[5]="||     \\|| ";
+return bukv;
+}
 array<string, 6> o()
 {
 
@@ -301,6 +312,8 @@ mainscreen.add(K);
   mainscreen.add(L);
   symbol M(m());
 mainscreen.add(M);
+  symbol N(n());
+mainscreen.add(N);
  symbol R(r());
  mainscreen.add(R);
    symbol U(u());
