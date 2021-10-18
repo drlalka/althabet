@@ -94,6 +94,8 @@ array<string, 6> bukv;
     bukv[3]="||   ||  ";
     bukv[4]="||___||  ";
     bukv[5]="      || ";
+        return bukv;
+
 }
 array<string, 6> r()
 {
@@ -178,6 +180,10 @@ output mainscreen;
 int main()
 {
 
+ symbol Q(q());
+ mainscreen.add(Q);
+ mainscreen.add(Q);
+ mainscreen.print();
     return 0;
 }
 
