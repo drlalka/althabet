@@ -222,7 +222,14 @@ return bukv;
 //olya
 array<string, 6> y()
 {
-
+array<string, 6> bukv;
+    bukv[0]="\\\\    //   ";
+    bukv[1]=" \\\\  //    ";
+    bukv[2]="  \\\\//     ";
+    bukv[3]="   //      ";
+    bukv[4]="  //       ";
+    bukv[5]=" //        ";
+return bukv;
 }
 array<string, 6> z()
 //olya
@@ -299,9 +306,10 @@ mainscreen.add(M);
    symbol U(u());
  mainscreen.add(U);
   symbol X(x());
+   symbol Y(y());
+ mainscreen.add(Y);
  mainscreen.print();
     return 0;
-
 }
 
 
