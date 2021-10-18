@@ -110,7 +110,7 @@ array<string, 6> v()
 }
 array<string, 6> w()
 {
-return bukv;array<string, 6> bukv;
+array<string, 6> bukv;
     bukv[0]="||           || ";
     bukv[1]="||    ||     || ";
     bukv[2]=" ||  || ||  ||  ";
@@ -176,7 +176,10 @@ public:
 };
 output mainscreen;
 int main()
-{
+{symbol W(w());
+ mainscreen.add(W);
+ mainscreen.add(W);
+ mainscreen.print();
 
     return 0;
 }
