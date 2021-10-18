@@ -140,7 +140,14 @@ array<string, 6> l()
 }
 array<string, 6> m()
 {
-
+array<string, 6> bukv;
+bukv[0]="||\\\\    //|| ";
+bukv[1]="|| \\\\  // || ";
+bukv[2]="||  \\__/  || ";
+bukv[3]="||        || ";
+bukv[4]="||        || ";
+bukv[5]="||        || ";
+return bukv;
 }
 array<string, 6> o()
 {
@@ -285,6 +292,8 @@ mainscreen.add(J);
 mainscreen.add(K);
   symbol L(l());
   mainscreen.add(L);
+  symbol M(m());
+mainscreen.add(M);
  symbol R(r());
  mainscreen.add(R);
    symbol U(u());
