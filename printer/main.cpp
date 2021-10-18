@@ -239,7 +239,14 @@ return bukv;
 //olya
 array<string, 6> w()
 {
-
+array<string, 6> bukv;
+    bukv[0]="||           || ";
+    bukv[1]="||    ||     || ";
+    bukv[2]=" ||  || ||  ||  ";
+    bukv[3]=" ||  || ||  ||  ";
+    bukv[4]="  ||||   ||||   ";
+    bukv[5]="   ||     ||    ";
+return bukv;
 }
 //olya
 array<string, 6> x()
@@ -353,6 +360,10 @@ mainscreen.add(N);
  mainscreen.add(R);
    symbol U(u());
  mainscreen.add(U);
+  symbol V(v());
+  mainscreen.add(V);
+  symbol W(w());
+ mainscreen.add(W);
   symbol X(x());
   mainscreen.add(X);
    symbol Y(y());
