@@ -106,15 +106,6 @@ array<string, 6> u()
 }
 array<string, 6> v()
 {
-array<string, 6> bukv;
-    bukv[0]="||       || ";
-    bukv[1]="||       || ";
-    bukv[2]=" ||     ||  ";
-    bukv[3]=" ||     ||  ";
-    bukv[4]="  ||   ||   ";
-    bukv[5]="    |||     ";
-return bukv;
-
 
 }
 array<string, 6> w()
@@ -134,7 +125,14 @@ return bukv;
 }
 array<string, 6> y()
 {
-
+array<string, 6> bukv;
+    bukv[0]="||      || ";
+    bukv[1]="||     ||  ";
+    bukv[2]="  || ||    ";
+    bukv[3]="    ||     ";
+    bukv[4]="    ||     ";
+    bukv[5]="||__||     ";
+return bukv;
 }
 array<string, 6> z()
 {
@@ -179,7 +177,10 @@ public:
 output mainscreen;
 int main()
 {
-
+ symbol Y(y());
+ mainscreen.add(Y);
+ mainscreen.add(Y);
+ mainscreen.print();
     return 0;
 }
 
