@@ -55,7 +55,14 @@ array<string, 6> i()
 }
 array<string, 6> j()
 {
-
+array<string, 6> bukv;
+bukv[0]="        __  ";
+bukv[1]="        ||  ";
+bukv[2]="        ||  ";
+bukv[3]="  __    ||  ";
+bukv[4]="  \\\\   //   ";
+bukv[5]="   \\\\_//    ";
+return bukv;
 }
 array<string, 6> k()
 {
@@ -170,7 +177,10 @@ public:
 output mainscreen;
 int main()
 {
-
+symbol J(j());
+mainscreen.add(J);
+mainscreen.add(J);
+mainscreen.print();
     return 0;
 }
 
