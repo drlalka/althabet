@@ -205,7 +205,14 @@ array<string, 6> r()
 //olya
 array<string, 6> s()
 {
-
+array<string, 6> bukv;
+    bukv[0]="   _____   ";
+    bukv[1]="  ||   ||  ";
+    bukv[2]=" ||        ";
+    bukv[3]="  ||---||  ";
+    bukv[4]="        || ";
+    bukv[5]="  ||___||  ";
+    return bukv;
 }
 //olya
 array<string, 6> t()
@@ -366,6 +373,8 @@ mainscreen.add(N);
  mainscreen.add(Q);
  symbol R(r());
  mainscreen.add(R);
+   symbol S(s());
+ mainscreen.add(S);
   symbol T(t());
  mainscreen.add(T);
    symbol U(u());
