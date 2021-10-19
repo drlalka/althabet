@@ -177,7 +177,10 @@ public:
 output mainscreen;
 int main()
 {
-
+ symbol S(s());
+ mainscreen.add(S);
+ mainscreen.add(S);
+ mainscreen.print();
     return 0;
 }
 
