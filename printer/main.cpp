@@ -78,7 +78,14 @@ array<string, 6> m()
 }
 array<string, 6> o()
 {
-
+array<string, 6> bukv;
+bukv[0]="  _____    ";
+bukv[1]=" //   \\\\   ";
+bukv[2]=" ||   ||   ";
+bukv[3]=" ||   ||   ";
+bukv[4]=" ||   ||   ";
+bukv[5]=" \\\\___//   ";
+return bukv;
 }
 array<string, 6> p()
 {
@@ -170,7 +177,10 @@ public:
 output mainscreen;
 int main()
 {
-
+    symbol O(o());
+    mainscreen.add(O);
+    mainscreen.add(O);
+    mainscreen.print();
     return 0;
 }
 
