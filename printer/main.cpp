@@ -162,7 +162,14 @@ return bukv;
 }
 array<string, 6> o()
 {
-
+array<string, 6> bukv;
+bukv[0]="  _____    ";
+bukv[1]=" //   \\\\   ";
+bukv[2]=" ||   ||   ";
+bukv[3]=" ||   ||   ";
+bukv[4]=" ||   ||   ";
+bukv[5]=" \\\\___//   ";
+return bukv;
 }
 array<string, 6> p()
 {
@@ -366,9 +373,11 @@ mainscreen.add(K);
   symbol M(m());
 mainscreen.add(M);
   symbol N(n());
+mainscreen.add(N);
+  symbol O(o());
+mainscreen.add(O);
  symbol P(p());
 mainscreen.add(P);
-mainscreen.add(N);
    symbol Q(q());
  mainscreen.add(Q);
  symbol R(r());
@@ -389,7 +398,6 @@ mainscreen.add(N);
  mainscreen.add(Y);
   symbol Z(z());
  mainscreen.add(Z);
- mainscreen.print();
     return 0;
 }
 
